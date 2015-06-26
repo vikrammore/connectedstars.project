@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1A33571B1BEA4100F844C9 /* JobListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1A33561B1BEA4100F844C9 /* JobListViewController.m */; };
+		EB1CC6A01B1D2476009B7809 /* JobResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1CC69F1B1D2476009B7809 /* JobResponseData.m */; };
+		EB4A66E11ADAF8D900931921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4A66E01ADAF8D900931921 /* main.m */; };
+		EB4A66E41ADAF8D900931921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4A66E31ADAF8D900931921 /* AppDelegate.m */; };
+		EB4A66E71ADAF8D900931921 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4A66E61ADAF8D900931921 /* ViewController.m */; };
+		EB4A66EC1ADAF8D900931921 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4A66EB1ADAF8D900931921 /* Images.xcassets */; };
+		EB4A66FB1ADAF8DA00931921 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4A66FA1ADAF8DA00931921 /* ToDoListTests.m */; };
+		EB6B4E041B2139AB000F8266 /* ConnectedStars.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6B4E031B2139AB000F8266 /* ConnectedStars.storyboard */; };
+		EB7E9C201B1955ED00533A2E /* JsonResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7E9C1F1B1955ED00533A2E /* JsonResponseParser.m */; };
+		EBDCBADC1AF5DE5800F9306A /* facebook232.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDCBAD81AF5DE5800F9306A /* facebook232.png */; };
+		EBDCBADD1AF5DE5800F9306A /* google32.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDCBAD91AF5DE5800F9306A /* google32.png */; };
+		EBDCBADE1AF5DE5800F9306A /* linkedin1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDCBADA1AF5DE5800F9306A /* linkedin1.png */; };
+		EBDCBADF1AF5DE5800F9306A /* twitter24.png in Resources */ = {isa = PBXBuildFile; fileRef = EBDCBADB1AF5DE5800F9306A /* twitter24.png */; };
+		EBDF74DB1AEC194400018A1F /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF74DA1AEC194400018A1F /* NavigationViewController.m */; };
+		EBDF74DE1AEC1A4500018A1F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDF74DD1AEC1A4500018A1F /* SecondViewController.m */; };
+		EBE7E61C1AEDB7BE00029714 /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE7E61B1AEDB7BE00029714 /* rect.png */; };
+		EBEEBE661AE53B8B001F5C46 /* AsyncPost.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEEBE651AE53B8B001F5C46 /* AsyncPost.m */; };
+		EBEEBE681AE66C5B001F5C46 /* connectedStarsProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBEEBE671AE66C5B001F5C46 /* connectedStarsProperties.plist */; };
+		EBEEBE6B1AE722C0001F5C46 /* modlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEEBE691AE722BF001F5C46 /* modlogo.png */; };
+		EBEEBE6C1AE722C0001F5C46 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEEBE6A1AE722BF001F5C46 /* people.png */; };
+		EBF667521AE099E700EF8A5B /* NSPostAndUrlObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF667511AE099E700EF8A5B /* NSPostAndUrlObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4A66F51ADAF8DA00931921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4A66D31ADAF8D900931921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4A66DA1ADAF8D900931921;
+			remoteInfo = ToDoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB1A33551B1BE98700F844C9 /* JobListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobListViewController.h; sourceTree = "<group>"; };
+		EB1A33561B1BEA4100F844C9 /* JobListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobListViewController.m; sourceTree = "<group>"; };
+		EB1CC69E1B1D241E009B7809 /* JobResponseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobResponseData.h; sourceTree = "<group>"; };
+		EB1CC69F1B1D2476009B7809 /* JobResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobResponseData.m; sourceTree = "<group>"; };
+		EB1CC6A11B1D2E5D009B7809 /* JsonResponseParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonResponseParser.h; sourceTree = "<group>"; };
+		EB4A66DB1ADAF8D900931921 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4A66DF1ADAF8D900931921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4A66E01ADAF8D900931921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB4A66E21ADAF8D900931921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB4A66E31ADAF8D900931921 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB4A66E51ADAF8D900931921 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB4A66E61ADAF8D900931921 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB4A66EB1ADAF8D900931921 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB4A66F41ADAF8DA00931921 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4A66F91ADAF8DA00931921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4A66FA1ADAF8DA00931921 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		EB6B4E031B2139AB000F8266 /* ConnectedStars.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConnectedStars.storyboard; sourceTree = "<group>"; };
+		EB7E9C1F1B1955ED00533A2E /* JsonResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonResponseParser.m; sourceTree = "<group>"; };
+		EBDCBAD81AF5DE5800F9306A /* facebook232.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook232.png; sourceTree = "<group>"; };
+		EBDCBAD91AF5DE5800F9306A /* google32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google32.png; sourceTree = "<group>"; };
+		EBDCBADA1AF5DE5800F9306A /* linkedin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin1.png; sourceTree = "<group>"; };
+		EBDCBADB1AF5DE5800F9306A /* twitter24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter24.png; sourceTree = "<group>"; };
+		EBDCBAEE1AF5F16A00F9306A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		EBDCBAF11AF5F51E00F9306A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		EBDCBAF21AF5F51E00F9306A /* FacebookSDK.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = ../../../FacebookSDK/FacebookSDK.strings; sourceTree = "<group>"; };
+		EBDCBAF31AF5F51E00F9306A /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = ../../../FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		EBDCBAF41AF5F51E00F9306A /* FBAudienceNetwork.README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = FBAudienceNetwork.README.txt; path = ../../../FacebookSDK/FBAudienceNetwork.README.txt; sourceTree = "<group>"; };
+		EBDCBAF51AF5F51E00F9306A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		EBDCBAF61AF5F51E00F9306A /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../../FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		EBDCBAF71AF5F51E00F9306A /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		EBDCBAF81AF5F51E00F9306A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../FacebookSDK/LICENSE; sourceTree = "<group>"; };
+		EBDCBAF91AF5F51E00F9306A /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.txt; path = ../../../FacebookSDK/README.txt; sourceTree = "<group>"; };
+		EBDF74D91AEC194400018A1F /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		EBDF74DA1AEC194400018A1F /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		EBDF74DC1AEC1A4500018A1F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EBDF74DD1AEC1A4500018A1F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EBE7E61B1AEDB7BE00029714 /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
+		EBEEBE641AE53B31001F5C46 /* AsyncPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncPost.h; sourceTree = "<group>"; };
+		EBEEBE651AE53B8B001F5C46 /* AsyncPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncPost.m; sourceTree = "<group>"; };
+		EBEEBE671AE66C5B001F5C46 /* connectedStarsProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = connectedStarsProperties.plist; sourceTree = "<group>"; };
+		EBEEBE691AE722BF001F5C46 /* modlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = modlogo.png; path = ../../../../../Downloads/drawable/modlogo.png; sourceTree = "<group>"; };
+		EBEEBE6A1AE722BF001F5C46 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = people.png; path = ../../../../../Downloads/drawable/people.png; sourceTree = "<group>"; };
+		EBF6674F1AE08E7C00EF8A5B /* NSPostAndUrlObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSPostAndUrlObject.h; sourceTree = "<group>"; };
+		EBF667511AE099E700EF8A5B /* NSPostAndUrlObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPostAndUrlObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4A66D81ADAF8D900931921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A66F11ADAF8DA00931921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4A66D21ADAF8D900931921 = {
+			isa = PBXGroup;
+			children = (
+				EBDCBAF11AF5F51E00F9306A /* Bolts.framework */,
+				EBDCBAF21AF5F51E00F9306A /* FacebookSDK.strings */,
+				EBDCBAF31AF5F51E00F9306A /* FBAudienceNetwork.framework */,
+				EBDCBAF41AF5F51E00F9306A /* FBAudienceNetwork.README.txt */,
+				EBDCBAF51AF5F51E00F9306A /* FBSDKCoreKit.framework */,
+				EBDCBAF61AF5F51E00F9306A /* FBSDKMessengerShareKit.framework */,
+				EBDCBAF71AF5F51E00F9306A /* FBSDKShareKit.framework */,
+				EBDCBAF81AF5F51E00F9306A /* LICENSE */,
+				EBDCBAF91AF5F51E00F9306A /* README.txt */,
+				EB4A66DD1ADAF8D900931921 /* ToDoList */,
+				EB4A66F71ADAF8DA00931921 /* ToDoListTests */,
+				EB4A66DC1ADAF8D900931921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4A66DC1ADAF8D900931921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A66DB1ADAF8D900931921 /* ToDoList.app */,
+				EB4A66F41ADAF8DA00931921 /* ToDoListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4A66DD1ADAF8D900931921 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				EBEEBE6D1AE724A2001F5C46 /* Images */,
+				EB4A66EB1ADAF8D900931921 /* Images.xcassets */,
+				EBDCBAEE1AF5F16A00F9306A /* FBSDKLoginKit.framework */,
+				EBF6674F1AE08E7C00EF8A5B /* NSPostAndUrlObject.h */,
+				EBF667511AE099E700EF8A5B /* NSPostAndUrlObject.m */,
+				EBEEBE641AE53B31001F5C46 /* AsyncPost.h */,
+				EBEEBE651AE53B8B001F5C46 /* AsyncPost.m */,
+				EB1CC6A11B1D2E5D009B7809 /* JsonResponseParser.h */,
+				EB7E9C1F1B1955ED00533A2E /* JsonResponseParser.m */,
+				EB1CC69E1B1D241E009B7809 /* JobResponseData.h */,
+				EB1CC69F1B1D2476009B7809 /* JobResponseData.m */,
+				EBDF74DC1AEC1A4500018A1F /* SecondViewController.h */,
+				EBDF74DD1AEC1A4500018A1F /* SecondViewController.m */,
+				EB4A66E21ADAF8D900931921 /* AppDelegate.h */,
+				EB4A66E31ADAF8D900931921 /* AppDelegate.m */,
+				EB4A66E51ADAF8D900931921 /* ViewController.h */,
+				EB4A66E61ADAF8D900931921 /* ViewController.m */,
+				EB1A33551B1BE98700F844C9 /* JobListViewController.h */,
+				EB1A33561B1BEA4100F844C9 /* JobListViewController.m */,
+				EB6B4E031B2139AB000F8266 /* ConnectedStars.storyboard */,
+				EB4A66DE1ADAF8D900931921 /* Supporting Files */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		EB4A66DE1ADAF8D900931921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBDF74D91AEC194400018A1F /* NavigationViewController.h */,
+				EBDF74DA1AEC194400018A1F /* NavigationViewController.m */,
+				EB4A66DF1ADAF8D900931921 /* Info.plist */,
+				EBEEBE671AE66C5B001F5C46 /* connectedStarsProperties.plist */,
+				EB4A66E01ADAF8D900931921 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4A66F71ADAF8DA00931921 /* ToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A66FA1ADAF8DA00931921 /* ToDoListTests.m */,
+				EB4A66F81ADAF8DA00931921 /* Supporting Files */,
+			);
+			path = ToDoListTests;
+			sourceTree = "<group>";
+		};
+		EB4A66F81ADAF8DA00931921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A66F91ADAF8DA00931921 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBEEBE6D1AE724A2001F5C46 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBDCBAD81AF5DE5800F9306A /* facebook232.png */,
+				EBDCBAD91AF5DE5800F9306A /* google32.png */,
+				EBDCBADA1AF5DE5800F9306A /* linkedin1.png */,
+				EBDCBADB1AF5DE5800F9306A /* twitter24.png */,
+				EBE7E61B1AEDB7BE00029714 /* rect.png */,
+				EBEEBE691AE722BF001F5C46 /* modlogo.png */,
+				EBEEBE6A1AE722BF001F5C46 /* people.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4A66DA1ADAF8D900931921 /* ToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4A66FE1ADAF8DA00931921 /* Build configuration list for PBXNativeTarget "ToDoList" */;
+			buildPhases = (
+				EB4A66D71ADAF8D900931921 /* Sources */,
+				EB4A66D81ADAF8D900931921 /* Frameworks */,
+				EB4A66D91ADAF8D900931921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoList;
+			productName = ToDoList;
+			productReference = EB4A66DB1ADAF8D900931921 /* ToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4A66F31ADAF8DA00931921 /* ToDoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4A67011ADAF8DA00931921 /* Build configuration list for PBXNativeTarget "ToDoListTests" */;
+			buildPhases = (
+				EB4A66F01ADAF8DA00931921 /* Sources */,
+				EB4A66F11ADAF8DA00931921 /* Frameworks */,
+				EB4A66F21ADAF8DA00931921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4A66F61ADAF8DA00931921 /* PBXTargetDependency */,
+			);
+			name = ToDoListTests;
+			productName = ToDoListTests;
+			productReference = EB4A66F41ADAF8DA00931921 /* ToDoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4A66D31ADAF8D900931921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Vikam MORE";
+				TargetAttributes = {
+					EB4A66DA1ADAF8D900931921 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EB4A66F31ADAF8DA00931921 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EB4A66DA1ADAF8D900931921;
+					};
+				};
+			};
+			buildConfigurationList = EB4A66D61ADAF8D900931921 /* Build configuration list for PBXProject "ToDoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4A66D21ADAF8D900931921;
+			productRefGroup = EB4A66DC1ADAF8D900931921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4A66DA1ADAF8D900931921 /* ToDoList */,
+				EB4A66F31ADAF8DA00931921 /* ToDoListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4A66D91ADAF8D900931921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEEBE6C1AE722C0001F5C46 /* people.png in Resources */,
+				EBDCBADF1AF5DE5800F9306A /* twitter24.png in Resources */,
+				EBDCBADD1AF5DE5800F9306A /* google32.png in Resources */,
+				EBEEBE6B1AE722C0001F5C46 /* modlogo.png in Resources */,
+				EBDCBADE1AF5DE5800F9306A /* linkedin1.png in Resources */,
+				EBEEBE681AE66C5B001F5C46 /* connectedStarsProperties.plist in Resources */,
+				EBDCBADC1AF5DE5800F9306A /* facebook232.png in Resources */,
+				EB4A66EC1ADAF8D900931921 /* Images.xcassets in Resources */,
+				EB6B4E041B2139AB000F8266 /* ConnectedStars.storyboard in Resources */,
+				EBE7E61C1AEDB7BE00029714 /* rect.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A66F21ADAF8DA00931921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4A66D71ADAF8D900931921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1CC6A01B1D2476009B7809 /* JobResponseData.m in Sources */,
+				EB4A66E71ADAF8D900931921 /* ViewController.m in Sources */,
+				EBEEBE661AE53B8B001F5C46 /* AsyncPost.m in Sources */,
+				EB1A33571B1BEA4100F844C9 /* JobListViewController.m in Sources */,
+				EBDF74DB1AEC194400018A1F /* NavigationViewController.m in Sources */,
+				EBDF74DE1AEC1A4500018A1F /* SecondViewController.m in Sources */,
+				EB7E9C201B1955ED00533A2E /* JsonResponseParser.m in Sources */,
+				EB4A66E41ADAF8D900931921 /* AppDelegate.m in Sources */,
+				EB4A66E11ADAF8D900931921 /* main.m in Sources */,
+				EBF667521AE099E700EF8A5B /* NSPostAndUrlObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A66F01ADAF8DA00931921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4A66FB1ADAF8DA00931921 /* ToDoListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4A66F61ADAF8DA00931921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4A66DA1ADAF8D900931921 /* ToDoList */;
+			targetProxy = EB4A66F51ADAF8DA00931921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB4A66FC1ADAF8DA00931921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB4A66FD1ADAF8DA00931921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4A66FF1ADAF8DA00931921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vikammore/Documents/FacebookSDK,
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		EB4A67001ADAF8DA00931921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vikammore/Documents/FacebookSDK,
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		EB4A67021ADAF8DA00931921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToDoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+			};
+			name = Debug;
+		};
+		EB4A67031ADAF8DA00931921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToDoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4A66D61ADAF8D900931921 /* Build configuration list for PBXProject "ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A66FC1ADAF8DA00931921 /* Debug */,
+				EB4A66FD1ADAF8DA00931921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4A66FE1ADAF8DA00931921 /* Build configuration list for PBXNativeTarget "ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A66FF1ADAF8DA00931921 /* Debug */,
+				EB4A67001ADAF8DA00931921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4A67011ADAF8DA00931921 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A67021ADAF8DA00931921 /* Debug */,
+				EB4A67031ADAF8DA00931921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4A66D31ADAF8D900931921 /* Project object */;
+}
